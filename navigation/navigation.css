@@ -1,0 +1,73 @@
+table.avgnavigation {
+    max-width: 1202px;
+    width: 100%;
+    display: block;
+}
+
+.avgnavigation th {
+    color: #eaeaea;
+    background-color: #222;
+    border: 1px solid #eaeaea88;
+}
+
+.avgnavigation td {
+    color: #eaeaea;
+    background-color: #111;
+    border: 1px solid #eaeaea88;
+    padding: 3px;
+}
+
+.avgchoice {
+    display: inline-block;
+    margin: 1px;
+    padding: 2px 5px 2px 9px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 1px;
+    transition-duration: 0.2s;
+}
+
+.avgchoice:hover {
+    color: black;
+    background-color: #eaeaea;
+}
+
+.avgchoice:before {
+    content: "?";
+    position: relative;
+    left: -4px;
+}
+
+.savgtitle {
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+    color: #03a9f4;
+    user-select: none;
+}
+
+.savgtitle:before {
+    content: "¡ì ";
+    font-size: 12px;
+}
+
+span.subsign {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.avgnavigationtitle {
+    max-width: 1202px;
+    text-align: center;
+    background-color: #222;
+    border-top: 2px solid #eaeaea;
+    padding: 5px 0px;
+    margin-bottom: 2px;
+    font-family: Georgia;
+    cursor: pointer;
+    user-select: none;
+}
+
+.avgnavigationtitle:hover {
+    background-color: #eaeaea;
+    color: black;
+}
